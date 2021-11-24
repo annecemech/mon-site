@@ -1,0 +1,6 @@
+hr.divider-dashed {
+  width:  30vw;
+  border:  none;
+  border-bottom: dashed 1px #F43B86;
+  margin: 60px auto;
+}

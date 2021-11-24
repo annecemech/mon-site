@@ -1,0 +1,36 @@
+.navbar {
+  position: fixed;
+  display:  flex;
+  align-items: center;
+  background-color:  white;
+  box-shadow:  0px 10px 30px rgba(0,0,0, 0.2);
+  width:  100%;
+  z-index: 1;
+}
+
+.navbar img {
+  width: 60px;
+  height: 60px;
+  margin:  20px;
+}
+
+.navbar ul {
+  display:  flex;
+  list-style: none;
+  margin:  0;
+  padding: 0;
+  flex-grow: 1;
+  gap: 20px;
+  justify-content: flex-end;
+  margin: 20px;
+}
+
+.navbar li {
+  font-family: 'Poppins', sans-serif;
+  color:  #000D6B;
+  text-transform: uppercase;
+}
+
+.navbar li:hover {
+  border-bottom: 2px #de367a solid;
+}

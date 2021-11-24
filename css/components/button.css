@@ -1,0 +1,15 @@
+.button-pink {
+  background-color: #F43B86;
+  color:  white;
+  font-size:  16px;
+  padding: 10px 20px;
+  border-radius:  4px;
+  text-decoration: none;
+  display: inline-block;
+  transition: transform 0.4s ease;
+}
+
+.button-pink:hover {
+  background-color: #de367a;
+  transform: rotate(-2deg);
+}

@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&family=Roboto&display=swap");
+
+@import url("components/container.css");
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+@import url("components/divider.css");
+@import url("components/navbar.css");
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color:  #F9F9F9;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  font-size:  14px;
+  color:  #2C394B;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Poppins', sans-serif;
+  color:  #000D6B;
+}
+
+a {
+  text-decoration: none;
+}
